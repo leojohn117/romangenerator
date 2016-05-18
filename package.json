@@ -1,0 +1,40 @@
+{
+  "name": "romanGenerator",
+  "description": "Convert an integer to a Roman number",
+  "version": "0.1",
+  "homepage": "https://github.com/leojohn117/Roman-Converter",
+  "author": "Leo John",
+  "repository": "leojohn117/Roman-Converter",
+  "bugs": {
+    "url": "https://github.com/leojohn117/Roman-Converter/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "arabic",
+    "number",
+    "numbers",
+    "numeral",
+    "numerals",
+    "roman"
+  ],
+  "verb": {
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "toc": false,
+    "layout": "default"
+  }
+}
