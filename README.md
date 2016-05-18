@@ -6,7 +6,7 @@
  ```sh
  $ npm i romanGenerator --save
  ```
-# Run tests
+# Running tests
 
 Tests validate [1, 5, 10, 50, 100, 500, 1000, 64, 226, 900, 998, 1712](./test.js).
 
@@ -17,3 +17,9 @@ Tests validate [1, 5, 10, 50, 100, 500, 1000, 64, 226, 900, 998, 1712](./test.js
   //=> 'LXIV'
   ```
 
+
+ Install dev dependencies:
+ 
+ ```sh
+ $ npm i -d && npm test
+ ```
