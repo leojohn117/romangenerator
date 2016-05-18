@@ -1,2 +1,3 @@
 # Roman-Converter
-Roman Convertor Repo
+converts an integer to a Roman number
+
