@@ -1,5 +1,5 @@
 {
-  "name": "romanGenerator",
+  "name": "romangenerator",
   "description": "Convert an integer to a Roman number",
   "version": "0.1",
   "homepage": "https://github.com/leojohn117/Roman-Converter",
