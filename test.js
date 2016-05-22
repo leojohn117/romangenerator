@@ -5,22 +5,22 @@
 'use strict';
 
 var assert = require('assert');
-var romanGenerator = require('./');
+var romangenerator = require('./');
 
-describe('romanGenerator', function() {
+describe('romangenerator', function() {
   it('should convert integers to roman number', function() {
-    assert.equal(romanGenerator(1), 'I');
-    assert.equal(romanGenerator(5), 'V');
-    assert.equal(romanGenerator(10), 'X');
-    assert.equal(romanGenerator(50), 'L');
-    assert.equal(romanGenerator(100), 'C');
-    assert.equal(romanGenerator(500), 'D');
-    assert.equal(romanGenerator(1000), 'M');
+    assert.equal(romangenerator(1), 'I');
+    assert.equal(romangenerator(5), 'V');
+    assert.equal(romangenerator(10), 'X');
+    assert.equal(romangenerator(50), 'L');
+    assert.equal(romangenerator(100), 'C');
+    assert.equal(romangenerator(500), 'D');
+    assert.equal(romangenerator(1000), 'M');
     
-	assert.equal(romanGenerator(64), 'LXIV');
-	assert.equal(romanGenerator(226), 'CCXXVI');
-	assert.equal(romanGenerator(900), 'CM');
-	assert.equal(romanGenerator(998), 'CMXCVIII');
-	assert.equal(romanGenerator(1712), 'MDCCXII');
+	assert.equal(romangenerator(64), 'LXIV');
+	assert.equal(romangenerator(226), 'CCXXVI');
+	assert.equal(romangenerator(900), 'CM');
+	assert.equal(romangenerator(998), 'CMXCVIII');
+	assert.equal(romangenerator(1712), 'MDCCXII');
   });
 });
