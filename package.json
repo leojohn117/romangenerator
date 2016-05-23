@@ -2,11 +2,11 @@
   "name": "romangenerator",
   "description": "Convert an integer to a Roman number",
   "version": "0.1.2",
-  "homepage": "https://github.com/leojohn117/Roman-Converter",
+  "homepage": "https://github.com/leojohn117/romangenerator",
   "author": "Leo John",
-  "repository": "leojohn117/Roman-Converter",
+  "repository": "leojohn117/romangenerator",
   "bugs": {
-    "url": "https://github.com/leojohn117/Roman-Converter/issues"
+    "url": "https://github.com/leojohn117/romangenerator/issues"
   },
   "license": "MIT",
   "files": [
